@@ -1,2 +1,4 @@
 let x  = 5;
-console.log(x);
+let y = 2;
+let result = x + y;
+console.log(result);
