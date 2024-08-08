@@ -7,6 +7,10 @@ strong {
   border-radius: 15%;
 }
 
+.text-2 {
+  font-size: 1.2rem;
+  color: lightblue;
+}
 .contact_form {
   display: flex;
   flex-direction: column;
