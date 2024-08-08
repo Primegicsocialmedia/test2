@@ -107,70 +107,47 @@ form button:hover {
   background-color: #0056b3;
 }
 
-.slideshow body {
+#slideshow-primegic {
   font-family: Arial, sans-serif;
-  background-color: #f4f4f4;
   margin: 0;
   padding: 0;
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  height: 80vh;
+  background-color: #f4f4f4;
 }
 
 .slideshow-container {
+  max-width: 800px;
   position: relative;
-  max-width: 80%;
   margin: auto;
   overflow: hidden;
-  height: 80vh;
-  border: 2px solid #ddd;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
-.slideshow {
-  display: flex;
-  transition: transform 0.5s ease-in-out;
-}
-
 .slide {
-  min-width: 100%;
-  box-sizing: border-box;
-  display: none; /* Initially hide all slides */
+  display: none;
 }
 
 .slide img {
   width: 100%;
-  height: 100%;
-  object-fit: cover;
+  height: auto;
   border-radius: 10px;
 }
 
-.prev,
-.next {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  width: auto;
-  padding: 16px;
-  margin-top: -22px;
-  color: rgb(105, 14, 14);
-  font-weight: bold;
-  font-size: 18px;
-  transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
-  user-select: none;
+.fade {
+  animation: fadeEffect 1.5s ease;
 }
 
-.next {
-  right: 0;
-  border-radius: 3px 0 0 3px;
-}
-
-.prev:hover,
-.next:hover {
-  background-color: rgba(0, 0, 0, 0.8);
+@keyframes fadeEffect {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 #ribbon {
