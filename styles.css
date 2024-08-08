@@ -36,6 +36,7 @@ strong {
   color: bisque;
   font-size: 0.8rem;
 }
+
 form body {
   font-family: Arial, sans-serif;
   background-color: #f4f4f4;
@@ -212,4 +213,12 @@ form button:hover {
   100% {
     transform: translateX(-50%);
   }
+}
+
+.clients {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 15px;
+  padding-top: 20px;
 }
