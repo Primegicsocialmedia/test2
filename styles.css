@@ -12,33 +12,33 @@ strong {
   margin-left: 20px;
 }
 
-.contact_form{
+.contact_form {
   padding-left: 40px;
   margin-left: 20px;
   display: flex;
   flex-direction: column;
-  
 }
 
-#email, #phone, #whatsapp{
+#email,
+#phone,
+#whatsapp {
   padding-bottom: 15px;
 
-#email{
-  color: burlywood;
+  #email {
+    color: burlywood;
+  }
 }
-  
-}
-#whatsapp{
+#whatsapp {
   color: chartreuse;
 }
 
-#phone{
+#phone {
   color: aqua;
 }
 
-.text{
+.text {
   color: bisque;
-  font-size: .8rem
+  font-size: 0.8rem;
 }
 form body {
   font-family: Arial, sans-serif;
@@ -87,16 +87,16 @@ form body {
 
 .form-group input:focus,
 .form-group textarea:focus {
-  border-color: #007BFF;
+  border-color: #007bff;
   outline: none;
 }
 
- form button {
+form button {
   width: 100%;
   padding: 10px;
   border: none;
   border-radius: 4px;
-  background-color: #007BFF;
+  background-color: #007bff;
   color: #fff;
   font-size: 16px;
   cursor: pointer;
