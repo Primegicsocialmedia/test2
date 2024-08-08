@@ -167,3 +167,49 @@ form button:hover {
 .next:hover {
   background-color: rgba(0, 0, 0, 0.8);
 }
+
+#ribbon {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20vh;
+  background-color: #f4f4f4;
+  font-family: Arial, sans-serif;
+}
+
+.photo-ribbon {
+  overflow: hidden;
+  width: 100%;
+  height: 100px; /* Adjust based on image height */
+  position: relative;
+  border: 2px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.ribbon-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  white-space: nowrap;
+  animation: scroll 30s linear infinite;
+}
+
+.ribbon-wrapper img {
+  height: 100%; /* Ensure images fit the container height */
+  margin: 0 5px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
