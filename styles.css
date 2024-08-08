@@ -114,12 +114,11 @@ form button:hover {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 80vh;
-  background-color: #f4f4f4;
+  height: 40vh;
 }
 
 .slideshow-container {
-  max-width: 800px;
+  max-width: 500px;
   position: relative;
   margin: auto;
   overflow: hidden;
