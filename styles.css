@@ -7,10 +7,7 @@ strong {
   border-radius: 15%;
 }
 
-
-
 .contact_form {
-
   display: flex;
   flex-direction: column;
 }
@@ -30,6 +27,9 @@ strong {
 
 #phone {
   color: aqua;
+}
+.main .lead {
+  font-size: 1rem;
 }
 
 .text {
@@ -121,7 +121,7 @@ form button:hover {
   height: 80vh;
   border: 2px solid #ddd;
   border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .slideshow {
@@ -142,7 +142,8 @@ form button:hover {
   border-radius: 10px;
 }
 
-.prev, .next {
+.prev,
+.next {
   cursor: pointer;
   position: absolute;
   top: 50%;
@@ -162,6 +163,7 @@ form button:hover {
   border-radius: 3px 0 0 3px;
 }
 
-.prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0.8);
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
 }
