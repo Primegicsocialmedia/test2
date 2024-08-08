@@ -7,14 +7,10 @@ strong {
   border-radius: 15%;
 }
 
-.about_us {
-  padding-left: 40px;
-  margin-left: 20px;
-}
+
 
 .contact_form {
-  padding-left: 40px;
-  margin-left: 20px;
+
   display: flex;
   flex-direction: column;
 }
